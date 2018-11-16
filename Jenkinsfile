@@ -2,7 +2,7 @@ pipeline {
     agent none
     environment {
         imageName = 'weha/my_web_ex'
-        port = 80
+        port = 81
     }
     
     stages {
